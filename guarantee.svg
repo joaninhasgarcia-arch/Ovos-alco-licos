@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+<defs>
+  <linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
+    <stop offset="0" stop-color="#d2b46c"/>
+    <stop offset="1" stop-color="#b88a2a"/>
+  </linearGradient>
+</defs>
+<circle cx="80" cy="80" r="70" fill="rgba(184,138,42,.10)" stroke="rgba(0,0,0,.10)" stroke-width="2"/>
+<circle cx="80" cy="80" r="58" fill="white" stroke="rgba(0,0,0,.10)" stroke-width="2"/>
+<path d="M80 26l10 6 12-2 6 10 12 2 0 12 8 10-8 10 0 12-12 2-6 10-12-2-10 6-10-6-12 2-6-10-12-2 0-12-8-10 8-10 0-12 12-2 6-10 12 2z" fill="url(#g)" opacity=".95"/>
+<circle cx="80" cy="80" r="36" fill="white" opacity=".92"/>
+<text x="80" y="74" text-anchor="middle" font-family="Inter,Arial" font-size="22" font-weight="800" fill="#1b1b1b">7 DIAS</text>
+<text x="80" y="96" text-anchor="middle" font-family="Inter,Arial" font-size="12" font-weight="700" fill="#1b1b1b">GARANTIA</text>
+</svg>
