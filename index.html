@@ -251,7 +251,8 @@
           <div class="testimonial-card rounded-2xl p-4 shadow-md relative">
             <p class="text-sm text-gray-800">"Gostei porque é direto ao ponto. Não tem enrolação e dá pra fazer no celular."</p>
             <div class="mt-3 flex items-center gap-2">
-              <img class="w-8 h-8 rounded-full object-cover" src="https://i.pravatar.cc/80?img=47" alt="Mariana">
+              <!-- ✅ avatar diferente do da Cláudia -->
+              <img class="w-8 h-8 rounded-full object-cover" src="https://i.pravatar.cc/80?img=12" alt="Mariana">
               <p class="text-xs text-gray-600 font-semibold">— Mariana, PR</p>
             </div>
             <div class="testimonial-tail"></div>
@@ -427,13 +428,15 @@
       }
     }
 
+    // ✅ Avatares mais consistentes (mulher/homem) — evita "Patrícia" com foto masculina
     const buyers = [
-      { name: 'Mônica', avatar: 'https://i.pravatar.cc/80?img=44' },
-      { name: 'Rafael', avatar: 'https://i.pravatar.cc/80?img=15' },
-      { name: 'Bruna',  avatar: 'https://i.pravatar.cc/80?img=49' },
-      { name: 'Diego',  avatar: 'https://i.pravatar.cc/80?img=8'  },
-      { name: 'Patrícia', avatar: 'https://i.pravatar.cc/80?img=51' }
+      { name: 'Mônica',   avatar: 'https://randomuser.me/api/portraits/women/44.jpg' },
+      { name: 'Rafael',   avatar: 'https://randomuser.me/api/portraits/men/15.jpg'   },
+      { name: 'Bruna',    avatar: 'https://randomuser.me/api/portraits/women/49.jpg' },
+      { name: 'Diego',    avatar: 'https://randomuser.me/api/portraits/men/8.jpg'    },
+      { name: 'Patrícia', avatar: 'https://randomuser.me/api/portraits/women/51.jpg' }
     ];
+
     const toast = document.getElementById('purchase-toast');
     const toastName = document.getElementById('toast-name');
     const toastAvatar = document.getElementById('toast-avatar');
@@ -452,4 +455,4 @@
     setTimeout(() => { showToast(); loopToast(); }, 6000);
   </script>
 </body>
-</html>
+  </html>
